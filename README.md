@@ -29,7 +29,7 @@
 4然后往下滑动点击commint change
 ![步骤3](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
 ## 四、查看运行结果
-Actions  > xioabei daka > build  
+Actions  > xioabei daka > get-points  
 能看到如下图所示，表示成功  
 ![](https://i.loli.net/2021/02/05/iXz96WZeScOIGbE.png)
 
