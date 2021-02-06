@@ -33,5 +33,5 @@ Actions  > xioabei daka > get-points
 能看到如下图所示，表示成功  
 ![](https://i.loli.net/2021/02/05/iXz96WZeScOIGbE.png)
 
-此后，将会在每天10:00签到一次  
+此后，将会在每天10点多签到一次  
 若有需求，可以在[.github/workflows/run.yml]中自行修改 
