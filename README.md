@@ -4,7 +4,7 @@
 ## 该步骤非必须，注册server酱做签到成功提醒作用，如不需要请直接跳到Github Actions说明中
 ### 自行去server酱官网注册账号[server酱](http://sc.ftqq.com/),注册成功后在发送消息中得到SCKEY值
 
-# Github Actions说明
+# Github Actions说明（若图片显示不出请转到有道云笔记中查看[github actions说明](http://note.youdao.com/s/QNAKe9qN)）
 ## 一、Fork此仓库
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 
