@@ -82,7 +82,7 @@ def notify(_title, _message=None):
     if _response.status_code == 200:
         print(f"发送通知状态：{_response.content.decode('utf-8')}")
     else:
-        print(f"小北同学打卡成功，但未成功配置server酱,问题不大：{_response.status_code}")
+        print(f"发送通知失败：{_response.status_code}")
 
 if __name__ == "__main__":
     if not username or not password:
