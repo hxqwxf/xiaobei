@@ -80,9 +80,9 @@ def notify(_title, _message=None):
     _response = requests.post(f"https://sc.ftqq.com/{SCKEY}.send",{"text": _title, "desp": _message},verify=False)
 
     if _response.status_code == 200:
-        print(f"发送通知状态：{_response.content.decode('utf-8')}")
+        print(f"发送server酱通知状态：{_response.content.decode('utf-8')}")
     else:
-        print(f"发送通知失败：{_response.status_code}")
+        print(f"发送server酱通知失败：{_response.status_code}")
 
 if __name__ == "__main__":
     if not username or not password:
