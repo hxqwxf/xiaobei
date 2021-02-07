@@ -24,13 +24,13 @@
 ![](http://tu.yaohuo.me/imgs/2020/06/748bf9c0ca6143cd.png)
 ![](https://i.loli.net/2021/02/05/KrHSRJk3xYAdGy5.png)
 ## 三、启用Action
-### 1 点击**Action**，再点击**I understand my workflows, go ahead and enable them** 
+1. 点击**Action**，再点击**I understand my workflows, go ahead and enable them** 
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
-### 2，点击**code**，然后往下滑动点击commint change
+2. 点击**code**，然后往下滑动点击commint change
 ![步骤1](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
-### 3,再点击笔,在空白行随便输入东西
+3. 再点击笔,在空白行随便输入东西
 ![步骤2](https://i.loli.net/2021/02/05/irWEo63dkwpAPyc.png)
-### 4然后往下滑动点击commint change
+4. 然后往下滑动点击commint change
 ![步骤3](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
 ## 四、查看运行结果
 Actions  > xioabei daka > get-points  
