@@ -6,10 +6,10 @@
 * 自行去server酱官网注册账号[server酱](http://sc.ftqq.com/),注册成功后在**发送消息**中得到SCKEY值
 
 ## 更新说明
+#### 若你fork此仓库时间比我更新时间早，请及时复制2.py中的代码到你的项目中
 * 21.2.7 小北同学健康打卡提交的信息变化
 
 # Github Actions说明
-* 若图片显示不出请转到有道云笔记中查看[有道云](http://note.youdao.com/s/QNAKe9qN)
 ## 一、Fork此仓库
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 
