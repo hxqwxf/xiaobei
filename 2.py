@@ -86,7 +86,7 @@ def notify(_title, _message=None):
 
 if __name__ == "__main__":
     if not username or not password:
-        notify("用户名或账号为空，请仔细阅读配置步骤！")
+        notify("账号或密码为空，请仔细阅读配置步骤！")
         sys.exit()
     _captchaImage_session=captchaImage_session(captchaImage_url)
     _login_session=login_session(_captchaImage_session,username,password)
