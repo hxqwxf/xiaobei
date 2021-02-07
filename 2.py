@@ -12,12 +12,17 @@ password=password.decode()
 SCKEY = os.getenv("XIAOBEI_SCKEY")
 
 temperature={
-    "temperature": "36.3",
-    "coordinates": "中国-重庆市-重庆市-永川区",
-    "location": "105.92709,29.356",
-    "healthState": "1",
-    "dangerousRegion": "2",
-    "remark": ""
+	"temperature": "36.4",
+	"coordinates": "中国-重庆市-重庆市-永川区",
+	"location": "105.92709,29.356",
+	"healthState": "1",
+	"dangerousRegion": "2",
+	"dangerousRegionRemark": "",
+	"contactSituation": "2",
+	"goOut": "1",
+	"goOutRemark": "",
+	"remark": "",
+	"familySituation": "1"
 }
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
