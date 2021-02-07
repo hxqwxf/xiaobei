@@ -1,7 +1,7 @@
 # 小北同学每天自动健康打卡
-## 该代码可直接运行在本地，只需要将2.py中代码复制到本地和修改账号密码即可，每天得手动运行该程序，如需每天自动打卡，请往下阅读
-## **首先准备好一个github账号,注册链接[github](https://github.com/)**
-## 该步骤非必须，注册server酱做签到成功提醒作用，如不需要请直接跳到Github Actions说明中
+### 该代码可直接运行在本地，只需要将2.py中代码复制到本地和修改账号密码即可，每天得手动运行该程序，如需每天自动打卡，请往下阅读
+### **首先准备好一个github账号,注册链接[github](https://github.com/)**
+### 该步骤非必须，注册server酱做签到成功提醒作用，如不需要请直接跳到Github Actions说明中
 ### 自行去server酱官网注册账号[server酱](http://sc.ftqq.com/),注册成功后在***发送消息***中得到SCKEY值
 
 # Github Actions说明
@@ -24,7 +24,7 @@
 ![](http://tu.yaohuo.me/imgs/2020/06/34ca160c972b9927.png)
 ### 2，点击**code**，然后往下滑动点击commint change
 ![步骤1](https://i.loli.net/2021/02/05/qwFmINBZp3fgiQP.png)
-### 3,再点击笔,在第十行随便输入东西
+### 3,再点击笔,在空白行随便输入东西
 ![步骤2](https://i.loli.net/2021/02/05/irWEo63dkwpAPyc.png)
 ### 4然后往下滑动点击commint change
 ![步骤3](https://i.loli.net/2021/02/05/gAuwbIxyaJdWPYe.png)
