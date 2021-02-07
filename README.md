@@ -3,10 +3,13 @@
 * 该代码可直接运行在本地，只需要将2.py中代码复制到本地和修改账号密码即可，每天得手动运行该程序，如需每天自动打卡，请往下阅读
 * **首先准备好一个github账号,注册链接[github](https://github.com/)**
 * 注册server酱非必须，注册server酱做签到成功提醒作用，如不需要请直接跳到Github Actions说明中
-* 自行去server酱官网注册账号[server酱](http://sc.ftqq.com/),注册成功后在***发送消息***中得到SCKEY值
+* 自行去server酱官网注册账号[server酱](http://sc.ftqq.com/),注册成功后在**发送消息**中得到SCKEY值
+
+## 更新说明
+* 21.2.7 小北同学健康打卡提交的信息变化
 
 # Github Actions说明
-### （若图片显示不出请转到有道云笔记中查看[有道云](http://note.youdao.com/s/QNAKe9qN)）
+* 若图片显示不出请转到有道云笔记中查看[有道云](http://note.youdao.com/s/QNAKe9qN)
 ## 一、Fork此仓库
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 
@@ -16,8 +19,8 @@
 
 ## 二、设置账号密码
 
-添加名为**XIAOBEI_USERNAME**、**XIAOBEI_PASSWORD**、**XIAOBEI_SCKEY**的变量  
-值分别为**账号**、**密码**、**server酱SCKEY值**（若不知道什么是server酱该空可不填）  
+* 添加名为**XIAOBEI_USERNAME**、**XIAOBEI_PASSWORD**、**XIAOBEI_SCKEY**的变量  
+* 值分别为**账号**、**密码**、**server酱SCKEY值**（若不知道什么是server酱该空可不填）  
 ![](http://tu.yaohuo.me/imgs/2020/06/748bf9c0ca6143cd.png)
 ![](https://i.loli.net/2021/02/05/KrHSRJk3xYAdGy5.png)
 ## 三、启用Action
