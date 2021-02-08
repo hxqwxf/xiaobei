@@ -13,7 +13,7 @@
 ## 一、Fork此仓库
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 
-### 点击2.py,找到temporary中的代码，若在永川不修改，其他地区请修改。
+###  点击2.py,找到temporary中的代码，若在永川不修改，其他地区请修改。
 #### 修改地址格式为**中国-重庆市-重庆市-永川区**，经纬度自行百度找到当地的经纬度填写
 ![](https://i.loli.net/2021/02/05/VOHl12sNArmLh8u.png)
 
