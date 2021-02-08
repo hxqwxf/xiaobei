@@ -64,7 +64,7 @@ def get_token(_login_session):
         headers["Authorization"] ='Bearer ' +token
         post_health()
     except Exception as e:
-        print('账号或者密码错误')
+        notify('账号或者密码错误')
 
 def post_health():
     _post_health=session.post(health_url,json = temperature,headers = headers,verify=False)
