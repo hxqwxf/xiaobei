@@ -5,6 +5,8 @@ import base64
 import os
 import json
 import sys
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 username= os.getenv("XIAOBEI_USERNAME")
 pd= os.getenv("XIAOBEI_PASSWORD")
