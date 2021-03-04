@@ -64,7 +64,6 @@ def get_token(_login_session):
     try:
         token=_login_session['token']
         headers["Authorization"] ='Bearer ' +token
-        post_health()
     except Exception as e:
         notify('账号或者密码错误')
 
@@ -79,26 +78,26 @@ def notify(_title, _message=None):
 
     print(_title)
 
-    _response = requests.post(f"https://sc.ftqq.com/{SCKEY}.send",{"text": _title, "desp": _message},verify=False)
+    qq_response = requests.post('https://qmsg.zendee.cn/send/{SCKEY}', {"msg": _title},verify=False)
 
     if _response.status_code == 200:
-        print(f"发送server酱通知状态：{_response.content.decode('utf-8')}")
+        print(f"发送qq通知成功)
     else:
-        print(f"发送server酱通知失败：{_response.status_code}")
+        print(f"发送qq通知失败：{_response.status_code}")
 
 if __name__ == "__main__":
     if not username or not password:
-        notify("账号或密码为空，请仔细阅读配置步骤！")
+        notify("用户名或账号为空，请仔细阅读配置步骤！")
         sys.exit()
-    _captchaImage_session=captchaImage_session(captchaImage_url)
-    _login_session=login_session(_captchaImage_session,username,password)
-    get_token(_login_session)
     try:
+        _captchaImage_session=captchaImage_session(captchaImage_url)
+        _login_session=login_session(_captchaImage_session,username,password)
+        get_token(_login_session)   
         response=post_health()
         if response['code'] == 200:
-            notify("小北同学打卡成功")
+            notify("打卡成功")
         else:
-            notify("打卡失败，请手动打卡", response.text)
+            notify("打卡失败\npost请求错误", response.text)
     except Exception as e:
-        notify("打卡失败，请手动打卡", str(e))
+        notify("打卡失败\n网络错误", str(e))
 
