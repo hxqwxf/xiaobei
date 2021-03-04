@@ -78,10 +78,10 @@ def notify(_title, _message=None):
 
     print(_title)
 
-    qq_response = requests.post('https://qmsg.zendee.cn/send/{SCKEY}', {"msg": _title},verify=False)
+    _response = requests.post(f'https://qmsg.zendee.cn/send/{SCKEY}', {"msg": _title},verify=False)
 
     if _response.status_code == 200:
-        print(f"发送qq通知成功)
+        print(f"发送qq通知成功")
     else:
         print(f"发送qq通知失败：{_response.status_code}")
 
