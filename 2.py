@@ -65,7 +65,7 @@ def get_token(_login_session):
         token=_login_session['token']
         headers["Authorization"] ='Bearer ' +token
     except Exception as e:
-        notify('账号或者密码错误')
+        notify('账号或者密码错误,请仔细阅读配置步骤')
 
 def post_health():
     _post_health=session.post(health_url,json = temperature,headers = headers,verify=False)
@@ -97,7 +97,7 @@ if __name__ == "__main__":
         if response['code'] == 200:
             notify("打卡成功")
         else:
-            notify("打卡失败\npost请求错误", response.text)
+            notify("打卡失败\npost请求错误\n请手动打卡", response.text)
     except Exception as e:
-        notify("打卡失败\n网络错误", str(e))
+        notify("打卡失败,请手动打卡", str(e))
 
