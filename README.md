@@ -40,3 +40,4 @@ Actions  > xioabei daka > get-points
 
 此后， 将会在每天10点多签到一次  
 若有需求，可以在[.github/workflows/run.yml]中自行修改 
+1
